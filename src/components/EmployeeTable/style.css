@@ -1,0 +1,31 @@
+thead th span{
+    cursor: pointer;
+}
+
+tbody {
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 65vh;
+    color: white;
+}
+
+thead,
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    color: white;
+}
+
+span {
+    color: white;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: darkred;
+}
